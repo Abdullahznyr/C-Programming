@@ -3,12 +3,12 @@
 
 int main()
 {
-    int secim;
+    int secim =-1; // Başlangıçta tanımlanmalı
     int yatirilacakTutar;
     int cekilecekTutar;
     int bakiye=1000;
 
-    while(secim)
+    while(secim != 0) // sıfır girilirse çıkacak
     {
         printf("1-Bakiye Miktari\n");
         printf("2-Para Yatir\n");
